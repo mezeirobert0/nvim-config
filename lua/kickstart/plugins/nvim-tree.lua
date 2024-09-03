@@ -9,6 +9,12 @@ return {
     { '\\', ':NvimTreeToggle<CR>', { silent = true } },
   },
   config = function()
-    require('nvim-tree').setup {}
+    require('nvim-tree').setup {
+      actions = {
+        change_dir = {
+          global = true,
+        },
+      },
+    }
   end,
 }
