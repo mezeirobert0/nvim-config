@@ -43,8 +43,6 @@ require('lazy').setup({
 
   require 'kickstart/plugins/treesitter',
 
-  require 'kickstart/plugins/nvim-tree',
-
   require 'kickstart/plugins/autopairs',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
