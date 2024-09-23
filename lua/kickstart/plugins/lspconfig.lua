@@ -173,6 +173,23 @@ return {
             '--fallback-style=webkit',
           },
         },
+
+        pylsp = {
+          settings = {
+            pylsp = {
+              plugins = {
+                pycodestyle = {
+                  ignore = { 'E501' },
+                },
+                flake8 = {
+                  enabled = true,
+                  ignore = { 'E501' },
+                },
+              },
+            },
+          },
+        },
+
         -- gopls = {},
         -- pyright = {},
         -- rust_analyzer = {},
